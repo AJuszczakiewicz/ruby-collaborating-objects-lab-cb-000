@@ -1,4 +1,5 @@
 class Song
+<<<<<<< HEAD
   attr_accessor :name, :artist
 
   def initialize(name)
@@ -15,5 +16,11 @@ class Song
     artist.add_song(new_song.name)
     artist.save
     new_song
+=======
+  attr_accessor :title
+
+  def initialize(title)
+    @title = title
+>>>>>>> d1b0ecb23e1e7af73ec8d7cca9d722d97fe1d6f7
   end
 end
